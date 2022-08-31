@@ -4,9 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FrontEnd to do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    
+    <img class="logo" src="img/ITuring.jpg" alt="logo do ITuring" />
+
+    <main>
+      <h1>Lista de Tarefas</h1>
+      <p>Minha primeira lista de tarefas</p>
+
+      <input
+        type="text"
+        id="tarefa-nova"
+        placeholder="Digite aqui sua tarefa..."
+      />
+      <button class="botao" id="btn-adicionar">Adicionar</button>
+
+      <div class="caixa">
+        <ul id="lista">
+          <!-- <li>
+            <span>Tarefa - 1</span>
+            <button class="excluir">X</button>
+          </li> -->
+        </ul>
+
+        <button class="botao bt-azul">Limpar</button>
+      </div>
+    </main>
+
+    <iframe
+      width="300"
+      height="200"
+      src="https://www.youtube.com/embed/-ZHGOxZmDBM"
+      title="Carreira em tecnologia: conheça o ITuring"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <script src="js/script.js"></script>
+
+    <footer id="rodape">
+      ©copywrite - Todos os direitos reservados - 2022
+    </footer>
   </body>
 </html>
